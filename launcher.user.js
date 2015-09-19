@@ -985,10 +985,8 @@ console.log("BOOSTER V1 LAUNCHER");
         debugStrings.push("" + window.botList[botIndex].name);
         debugStrings.push("BOOSTER V1 LAUNCHER " + aposLauncherVersion);
         debugStrings.push("[T] - Aktiviere den Hack: " + (!toggle ? "AN" : "AUS"));
-	debugStrings.push("[R] - Zeige die Linien: " + (!toggleDraw ? "AN" : "AUS"));
-	debugStrings.push("[F] - Masse Anzeigen: " + (!toggleDraw ? "AN" : "AUS"));
-	debugStrings.push("[D] - Aktiviere den Schwarzen Modus: " + (!toggleDraw ? "AN" : "AUS"));
-	debugStrings.push("[ESC] - Einstellungen für Agar.IO ");
+	    debugStrings.push("[R] - Zeige die Linien: " + (!toggleDraw ? "AN" : "AUS"));
+
 
         for (var i = 0; i < botString.length; i++) {
             debugStrings.push(botString[i]);
